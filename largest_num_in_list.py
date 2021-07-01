@@ -1,7 +1,7 @@
-numbers = [5, 10, 50, 20, 70]
-max_number = numbers[0]
+from utils import find_max_number
 
-for number in numbers:
-    if number > max_number:
-        max_number = number
+numbers = [5, 10, 50, 20, 70]
+
+max_number = find_max_number(numbers)
+
 print(max_number)

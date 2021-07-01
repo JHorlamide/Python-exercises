@@ -1,4 +1,4 @@
-numbers = [2, 2, 2, 5,]
+numbers = [2, 2, 2, 5, ]
 
 for x in numbers:
     output = ''
